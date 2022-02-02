@@ -5,7 +5,29 @@
 }
 
 $primary-color : #666;
+$h1-size :28px;
+
+@mixin para-style {
+  font-size: 14px;
+  text-align: justify;
+  color: orange;
+  
+}
+@mixin h4-style($size,$color) {
+  font-size: $size;
+  text-align: left;
+  color: $color;
+  
+}
+
+h4{
+@include h4-style(24px,red )
+}
 
 h1{
   color: $primary-color;
+  font-size: $h1-size;
+}
+p{
+  @include para-style;
 }
