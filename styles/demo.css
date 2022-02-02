@@ -5,20 +5,51 @@
           box-sizing: border-box;
 }
 
-h4 {
+.ctn, .btn, .btn-2 {
+  background-color: green;
+  padding: 5px 15px;
+  font-size: 14px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #fff;
+}
+
+.btn-2 {
+  background-color: red;
+}
+
+.main-card {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.main-card .card-body {
+  background: azure;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5px;
+}
+
+.main-card h5 {
   font-size: 24px;
-  text-align: left;
+  color: #999;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.main-card h6 {
+  font-size: 24px;
+  color: #999;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 18px;
   color: red;
 }
 
-h1 {
-  color: #666;
-  font-size: 28px;
-}
-
-p {
+.main-card p {
   font-size: 14px;
-  text-align: justify;
-  color: orange;
+  color: gray;
+  margin: 6px;
 }
 /*# sourceMappingURL=demo.css.map */
